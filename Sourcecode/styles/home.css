@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+b {
+    color: red;
+}
+
+address {
+    color: #888;
+}
+
+tr td {
+    color: red;
+}
+
+tr th {
+    color: red;
+}
+
+h2 {
+    color: #199dd1;
+    padding-left: 10px;
+}
+
+h3 {
+    color: red;
+    padding-left: 10px;
+}
+
+.item_icon tr td,
+.item_icon th {
+    padding: 0px;
+}
+
+
+/*.right tr td, .right b {padding-left:50px;}*/
+
+body {
+    background-color: #ffffff;
+}
+
+.listtv {
+    background: #d2e5fa;
+    padding: 0px;
+    width: 100%;
+}
+
+.listtv tr td,
+.listtv tr td a {
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.listtv tr th {
+    color: black;
+    padding-left: 5px;
+}
+
+.listtv input {
+    padding: 5px;
+}
+
+.listsp {
+    width: 100%;
+    background: #b2cce6;
+    padding: 0px;
+}
+
+.listsp tr td,
+.listsp tr td a {
+    padding: 5px;
+    padding-left: 10px;
+    color: black;
+    border-right: black 2px solid;
+}
+
+.listsp input {
+    padding: 10px;
+}
+
+.listsp th {
+    color: black;
+    border-top: black 2px solid;
+}
+
+.lienhe {
+    width: 100%;
+    background: #b2cce6;
+    padding: 0px;
+}
+
+.lienhe tr td,
+.lienhe tr td a {
+    padding: 5px;
+    color: black;
+    padding-left: 55px;
+    font-weight: bold;
+}
+
+.lienhe th {
+    color: red;
+    font-weight: bold;
+}
+
+.dangnhap tr td {
+    color: black;
+}
+
+.cart {
+    width: 100%;
+    background: #b2cce6;
+    padding: 0px;
+    border: black 1px solid;
+}
+
+.cart td,
+.cart th {
+    border: #f1f1f1 1px solid;
+}
+
+.cart2 {
+    width: 100%;
+    background: #b6d4f2;
+    padding: 0px;
+    border: #f1f1f1 1px solid;
+}
+
+.cart2 td,
+.cart2 th {
+    border: #dcd4c6 1px solid;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    border: rgb(199, 199, 199) 0.5px solid;
+}
+
+.header {
+    width: 100vw;
+    height: 300px;
+    background: url('../images/bannerlaptop4.jpg') no-repeat;
+}
+
+.headmenu {
+    background: #199dd1;
+    width: 1519;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    padding-left: 360px;
+}
+
+.headmenu ul,
+.listbar ul {
+    position: absolute;
+    margin: 0;
+}
+
+.headmenu ul li,
+.listbar ul li {
+    display: block;
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+.headmenu ul li a {
+    font-size: 120%;
+    text-decoration: none;
+    color: #ffbb00;
+    font-weight: bold;
+}
+
+.headmenu ul li ul,
+.listbar ul li ul {
+    display: none;
+    width: 150px;
+    margin: 0;
+    padding: 0 0 5px;
+    border: 1px solid black;
+}
+
+.headmenu ul li:hover ul,
+.listbar ul li:hover ul {
+    display: block;
+    background: #000000e0;
+}
+
+.headmenu ul li li,
+.listbar ul li li {
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 0 5px;
+    background: #000000e0;
+    width: 140px;
+}
+
+ul li li:hover {
+    background: #888;
+}
+
+ul li li:hover a {
+    color: #111;
+}
+
+.contein {
+    width: 100%;
+}
+
+.contein2 {
+    text-align: center;
+}
+
+.contein2 table {
+    margin-left: 25%;
+}
+
+.left {
+    width: 100%;
+    display: inline-block;
+}
+
+.phantrang {
+    float: right;
+    margin-right: 20px;
+    color: black;
+    height: 20px;
+}
+
+.phantrang a {
+    color: black;
+}
+
+.right div {
+    width: 248px;
+    height: 330px;
+    background: #f1f1f1;
+    float: left;
+    border: rgb(190, 190, 190) 0.2px solid;
+    text-align: center;
+    transition: background-color 0.4s;
+}
+
+.item {
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.listbar {
+    width: 90%;
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 100px;
+    position: relative;
+    padding-top: 10px;
+    border-top: 1px solid #888;
+}
+
+.footer {
+    display: block;
+    width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.admin {
+    width: 100%;
+    margin: auto;
+    background: #d68915;
+}
+
+.left-admin {
+    width: 23%;
+    height: 1000px;
+    font-weight: bold;
+    border: #888 1px solid;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.left-admin ul li {
+    border: black 1px solid;
+    padding: 20px 20px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+.left-admin a {
+    color: #c35e04;
+}
+
+.left-admin table tr th {
+    padding: 0px 30px;
+    border-right: #888 1px solid;
+}
+
+.left-admin table tr td {
+    padding-right: 20px;
+    border-right: #888 1px solid;
+}
+
+.left-admin h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #199dd1;
+}
+
+.left-admin ul li:hover {
+    background: #888;
+}
+
+.right-admin {
+    width: 50%;
+    text-align: center;
+    border: #888 1px solid;
+    font-weight: bold;
+    float: left;
+    padding: 50px 100px;
+}
+
+#admin {
+    width: 1500px;
+}
+
+#slideshow {
+    float: left;
+    overflow: hidden;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+    float: left;
+    height: 200px;
+    width: 800px;
+}
+
+@-webkit-keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+    30% {
+        margin-left: -800px;
+    }
+    50% {
+        margin-left: -800px;
+    }
+    60% {
+        margin-left: -1600px;
+    }
+    80% {
+        margin-left: -1600px;
+    }
+}
+
+.right div:hover {
+    background-color: #b7d3df;
+}
+
+.footer-up {
+    width: 1000px;
+    height: 220px;
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.75), rgba(45, 95, 93, 0.95)), url(../images/background-100.jpg);
+}
+
+.colum {
+    margin-top: 30px;
+    width: 250px;
+    float: left;
+}
+
+.colum1 {
+    margin-left: 25px;
+    width: 450px;
+    margin-right: 75px;
+}
+
+.colum ul {
+    list-style: none;
+}
+
+.colum ul li {
+    margin-top: 3px;
+}
+
+.colum ul h2 {
+    padding-left: 0px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.colum ul h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.colum2 {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.clear {
+    clear: both;
+    display: right;
+}
+
+body {
+    background-image: url(../images/background3.jpg);
+}
